@@ -1,0 +1,19 @@
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.header{
+    width: 80%;
+    height: 40vh;
+}
+
+.home:nth-of-type(){
+    float: right;
+}   
+main{
+    display: flex;
+}
+section{
+    min-width: 50%;
+    flex-wrap: wrap;
+}
