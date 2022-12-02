@@ -6,14 +6,11 @@ img{
     width: 80%;
     height: 40vh;
 }
-
-.home:nth-of-type(){
-    float: right;
-}   
 main{
     display: flex;
-}
-section{
-    min-width: 50%;
     flex-wrap: wrap;
+}
+section {
+    width: 48%;
+    padding: 8px;
 }
