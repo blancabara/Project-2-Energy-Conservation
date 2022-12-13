@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: whitesmoke;
-    background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+    background-color: #f5f5f5;
+    background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
     margin: 0%;
     padding: 0%;
 }
@@ -91,30 +91,119 @@ a {
 
 .consumption p,
 .greenhouse p,
-.prices p {
-    width: 60%;
+.prices p,
+.contributing p {
+    width: 98%;
     margin: 1%;
+    font-size: 1.3rem;
+    text-indent: 2%;
+    line-height: 200%;
+}
+
+.DIY p,
+.LED p,
+.other p {
+    width: 98%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    font-size: 1.3rem;
+    text-indent: 5%;
+    line-height: 200%;
+}
+
+.consumption h2,
+.greenhouse h2,
+.prices h2,
+.contributing h2,
+.DIY h2,
+.LED h2,
+.other h2  {
+    margin: 1%;
+    margin-top: 2%;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.DIY,
+.LED,
+.other {
+    display: flex;
+    flex-wrap: wrap;
+    width: 32.33%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #FFE100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LED {
     background-color: #E0F2EE;
+}
+
+.img-volts,
+.img-pollution,
+.img-prices,
+.img-panels {
+    width: 35%;
+}
+
+.group01,
+.group02,
+.group03,
+.group04 {
+    display: flex;
+    width: 98%;
+    margin: 1%;
+}
+
+.group05 {
+    display: flex;
+    width: 100%;
+}
+
+.consumption,
+.prices {
+    width: 70%;
+    background-color: #E0F2EE;
+    margin-right: 1%;
+}
+
+.greenhouse {
+    width: 70%;
+    background-color: #FFE100;
+    margin-left: 1%;
+}
+
+.contributing {
+    width: 70%;
+    background-color: #E0F2EE;
+    margin-left: 1%;
+}
+
+.img-lights,
+.img-insulation {
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.images-info {
     display: flex;
     flex-wrap: wrap;
 }
 
-.group01 {
-    display: flex;
-}
-
-.consumption {
-    width: 60%;
-}
-
 img {
     width: 100%;
-    max-height: 335px;
-    margin: 1%;
+    max-height: 450px;
 }
 
 .footer-nav {
     display: flex;
+    justify-content: right;
 }
 
 footer {
@@ -123,12 +212,22 @@ footer {
     width: 98%;
 }
 
+.space {
+    background-color: #102968;
+    height: 2vh;
+}
+
+footer ul li {
+    list-style: none;
+}
+
 .contact-info {
     color: whitesmoke;
-    display: flex;
-    
-    justify-content: right;
-    margin: 1%;
+    margin: 2%;
+}
+
+.contact-info h3 {
+    font-weight: 700;
 }
 
 
